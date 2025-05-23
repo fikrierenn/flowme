@@ -1,0 +1,33 @@
+## 📄 Cursor Rules — FlowMe
+
+Bu dosya, FlowMe projesinin Cursor AI içinde yapılandırılması için kullanılan kuralları Markdown formatında tanımlar. Yapay zeka, proje yapısı ve hedeflerine göre yönlendirilir.
+
+---
+
+### 🔧 Proje
+- **Adı:** flowme
+
+### 🤖 Yapay Zekâ Ayarları
+- **AI Etkin:** true
+- **Varsayılan Model:** gemini-pro
+- **Çalıştırılacak Fonksiyon:** `supabase/functions/ai-handler/index.ts`
+- **Prompt Modu:** structured
+- **Token Limiti:** 2048
+
+### 🧱 Proje Yapısı
+- **Bileşenler (components):**
+  - `TaskInput`
+  - `TaskCard`
+- **Yardımcılar (utils):**
+  - `sendToAI`
+- **API:**
+  - `edge/ai-handler`
+
+### 🎯 Hedefler
+- Doğal dil girdisinden yapılandırılmış görev çıkarımı
+- Kullanıcıya eksik bilgi varsa geri soru
+- Supabase tabanlı görev takibi ve kayıt
+
+---
+
+u `cursor.rules.md` dökümanı, Cursor içerisinde proje kapsamının sınırlarını çizer, yapay zeka davranışını kontrol altına alır ve geliştiriciye yapısal rehberlik sağlar.

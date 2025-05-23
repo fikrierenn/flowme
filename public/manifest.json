@@ -1,0 +1,21 @@
+{
+  "short_name": "FlowMe",
+  "name": "FlowMe Görev Yönetimi",
+  "icons": [
+    {
+      "src": "icons/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icons/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ECE5DD",
+  "theme_color": "#075E54",
+  "description": "Premium, modern ve mobil uyumlu görev yönetim uygulaması."
+} 
